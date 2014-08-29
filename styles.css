@@ -1,0 +1,71 @@
+.links {
+	text-decoration: none;
+	color: black;
+	text-align: right;
+	display:inline-block;
+	padding: 10px 30px 10px 30px;
+	font-family: 'Play', sans-serif;
+}
+
+.links:hover {
+	color: #FF0040;
+	font-size: 20px;
+}
+
+.title {
+	color: black;
+	display: inline-block;
+	padding: 10px 400px 10px 20px;
+	font-family: 'Play', sans-serif;
+}
+
+.title2 {
+	color: black;
+	padding: 10px 400px 10px 20px;
+	font-size: 17px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	border-collapse: collapse;
+	font-family: 'Play', sans-serif;
+
+}
+
+.inline {
+	display: inline-block;
+}
+
+#facebook {
+	background-image: url('facebook-icon.jpg');
+	background-size: 100%;
+	height: 23px;
+	width: 23px;
+	text-align: right;
+	display: inline-block;
+	margin: 35px 20px 0px 30px;
+}
+
+#twitter {
+	background-image: url('twitter-icon.png');
+	background-size: 100%;
+	height: 18px;
+	width: 18px;
+	text-align: right;
+	display: inline-block;
+	margin: 25px 20px 0px 30px;
+}
+
+#head {
+	border-bottom: 1px solid black;
+	font-family: 'Play', sans-serif;
+}
+
+#bodyback {
+	background-color: white;
+}
+
+#marvel-bg {
+	background-image: url('marvel-bg.jpg');
+	height: 535px;
+	width: 1348px;
+	background-size: 100%;
+}
