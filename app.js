@@ -4,3 +4,8 @@ $('a').click(function(){
     }, 500);
     return false;
 });
+
+var bgmusic = new Audio('srcfile.wav');
+window.onload=function {
+    bgmusic.play();
+}
