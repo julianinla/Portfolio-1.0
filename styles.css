@@ -9,7 +9,6 @@
 
 .links:hover {
 	color: #FF0040;
-	font-size: 20px;
 }
 
 .title {
@@ -68,6 +67,20 @@
 	height: 535px;
 	width: 1348px;
 	background-size: 100%;
+}
+
+.jumpback {
+	text-decoration: none;
+	color: black;
+	text-align: right;
+	display:inline-block;
+	padding: 10px 30px 10px 600px;
+	font-family: 'Play', sans-serif;
+	text-align: center;
+}
+
+.jumpback:hover {
+	color: #FF0040;
 }
 
 /* body {
