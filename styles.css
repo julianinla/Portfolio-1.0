@@ -99,30 +99,61 @@ a:hover {text-decoration: none;}
 	color: #FF0040;
 }
 
-#audio {
-	margin: 15px 15px 15px 215px;
-}
 
-#coldplayimg {
-	margin: 15px 15px 15px 215px;
-}
 
 .favtracks {
-	margin: 15px 15px 15px 255px;
 	font-family: 'Play', sans-serif;
+	margin: 0px 0px 0px 10px;
 }
 
 .aboutcoldplay {
-	margin: 15px 15px 15px 265px;
 	font-family: 'Play', sans-serif;
 	font-size: 14px;
 }
 
 .aboutme {
-	margin: 15px 30px 15px 500px;
-	padding: 15px 30px 15px 500px;
+	margin: 0px 30px 15px 50px;
+	padding: 0px 30px 15px 25px;
 	text-align: center;
 	font-family: 'Play', sans-serif;
+	font-size: 30px;
+}
+
+.aboutme2 {
+	margin: 0px 30px 15px 50px;
+	padding: 0px 30px 15px 25px;
+	text-align: center;
+	font-family: 'Play', sans-serif;
+	font-size: 25px;
+}
+
+.aboutcode {
+	margin: 15px 130px 15px 155px;
+	padding: 15px 130px 15px 150px;
+	font-family: 'Play', sans-serif;
+}
+
+.aboutmusic {
+	margin: 0px 45px 15px 310px;
+	display: inline-block;
+	height: 300px;
+	width: 355px;
+	font-family: 'Play', sans-serif;
+	vertical-align: top;
+}
+
+.aboutcomic {
+	margin: 0px 275px 15px 310px;
+	display: inline-block;
+	font-family: 'Play', sans-serif;
+	vertical-align: top;
+}
+
+.musicplay {
+	display: inline-block;
+	font-family: 'Play', sans-serif;
+	margin: 0px 190px 15px 50px;
+	vertical-align: top;
 }
 
 #coffeeshop {
