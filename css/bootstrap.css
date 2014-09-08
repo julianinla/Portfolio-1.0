@@ -44,6 +44,7 @@ template {
 }
 a {
   background: transparent;
+  text-decoration: none;
 }
 a:active,
 a:hover {
@@ -910,13 +911,11 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #428bca;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #2a6496;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:focus {
   outline: thin dotted;
@@ -3583,7 +3582,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
 }
-.nav > li > a {
+.nav > li >
+{
   position: relative;
   display: block;
   padding: 10px 15px;

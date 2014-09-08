@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 	<head>
 		<title>
 			Julian van Riet
@@ -7,57 +7,89 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="normalize.css">
 		<link rel="stylesheet" type="text/css" href="styles.css">
-		<link rel="stylesheet" type="text/css" href="../Portfolio_1.0/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../Portfolio 1.0/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../Portfolio 1.0/css/bootstrap-theme.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
 	</head>
-	<body id='bodyback'>
+	<body id='bodyback'> 
 		<header id='head'>
-			<h2 class="title">
+			<h2 class="title" name="title">
 				Julian van Riet
 			</h2>
 			<section class="inline">
-				<a href="#home" class="links"> Home </a>
-				<a href="#about" class="links"> About Me </a>
-				<a href="#img" class="links"> Images </a>
-				<a href="#vid" class="links"> Videos </a>
-				<a href="#work" class="links"> Projects </a>
+				<a href="#home" rel="" class="links nav"> Home </a>
+				<a href="#about" class="links nav"> About Me </a>
+				<a href="#img" class="links nav"> Images </a>
+				<a href="#vid" class="links nav"> Videos </a>
+				<a href="#work" class="links nav"> Projects </a>
 				<a href="http://www.facebook.com/julian.vanriet" id="facebook"> </a>
 				<a href="http://twitter.com/" id="twitter"> </a>
 			</section>
 		</header>
-		<br> <section class="title2">
+		<br> <section class="title3">
 			<a name="home"> <b> Home </b> </a>
 		</section>
-		<p id="marvel-bg">
-		</p>
-		<br> <section class="title2">
+		<div id="marvel-bg">
+		</div><section class="title2">
 			<a name="about"> <b> About Me </b> </a>
 		</section>
+		<p class="aboutme"> <h4> <b> I am Julian, an avid programmer and video game fanatic. </b> </h4> </p>
+		<p class="aboutcode"> I have always been a fan of video games. From Super Mario Bros. to The Last of Us, I have played them 
+		all. My love of video games has driven me to begin to program, in the hopes of one day programming a video game of my own. Throughout my years programming I have learned: HTML5/CSS3, Javascript, jQuery (still learning), PHP (still learning). </p>
+		<div class="favtracks"> <b> Listen to my Favorite Tracks! <b> </div>
+		<img id='coldplayimg' src="../Portfolio 1.0/images/colplay-tour.jpg" height="300" width="300"><br>
+		<audio id="audio" onended="loadplaylist()" src="../Portfolio 1.0/music/ink.m4a"  controls  ></audio>
+		<p class="aboutmusic"></p>
 		<br> <section class="title2">
 			<a name="img"> <b> Images </b> </a>
 		</section>
 		<div class="imggallery" align='center'></div>
-		<!-- <div class="thumbnails">
-			<img onmouseover="preview.src=img1.src" name="img1" src="http://bit.ly/2rz3hy" alt="" />
-			<img onmouseover="preview.src=img2.src" name="img2" src="http://bit.ly/1ug1e6" alt="" />
-			<img onmouseover="preview.src=img3.src" name="img3" src="http://bit.ly/1yIAYc" alt="" />
-			<img onmouseover="preview.src=img4.src" name="img4" src="http://bit.ly/2LHyDW" alt="" />
-			<img onmouseover="preview.src=img5.src" name="img5" src="http://bit.ly/2wyHSR" alt="" />
-			<img onmouseover="preview.src=img6.src" name="img6" src="http://bit.ly/yRo1i" alt="" />
-		</div> -->
-		<br> <section class="title2">
-			<a name="vid"> <b> Videos </b> </a>
-		</section>
-		<div class="vidgallery" align='center'></div>
-		<br> <section class='title2'>
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  		<!-- Indicators -->
+  		<ol class="carousel-indicators">
+    		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  		</ol>
+
+  		<!-- Wrapper for slides -->
+  		<div class="carousel-inner">
+    	<div class="item active">
+      		<img src="../Portfolio 1.0/images/coffee.JPG" alt="..." id="coffeeshop">
+      		<div class="carousel-caption">
+        		An image of in a gas station in Italy.
+      		</div>
+    	</div>
+    	<div class="item pic2">
+      		<img src="../Portfolio 1.0/images/carshow.jpg" alt="..." id="carshow">
+      		<div class="carousel-caption">
+        		A picture of me at a car show.
+      		</div>
+    	</div>
+    	<div class="item">
+      		<img src="../Portfolio 1.0/images/concert.jpg" alt="..." id="concert">
+      		<div class="carousel-caption">
+        		A picture of me with my mom at a concert.
+      		</div>
+    	</div>
+    	<div class="item">
+      		<img src="../Portfolio 1.0/images/sanfran.jpg" alt="..." id="frisco">
+      		<div class="carousel-caption">
+        		A picture of me just hanging out.
+      		</div>
+    	</div>
+  		</div>
+
+		<section class='title2'>
 			<a name="work"> <b> Projects </b> </a>
 		</section>
 		<p>
 			<!-- put pic here later-->
 		</p>
-		<a href='#' class="jumpback" align='center'>Jump Back To Top</a>
-		<script type='text/javascript' src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-		<script type='text/javascript' src="app.js"></script>
+		<a href='#title' class="jumpback" align='center'>Jump Back To Top</a>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type='text/javascript' src="../Portfolio 1.0/js/app.js"></script>
 	</body>
 </html>
